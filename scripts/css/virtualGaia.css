@@ -1,0 +1,284 @@
+/* SUPER DESTAQUE */
+#super_destaque { position:relative; z-index:50; display:block;  float:left; margin:0 0 20px 0; overflow:hidden; width:970px; height:311px; background:url(../img/bg_super_destaque.jpg) left bottom repeat-x; }
+#super_destaque .imobDestaque { position:relative; }
+#super_destaque .imobDestaque .image { float:left; width:970px; height:270px; overflow:hidden;}
+#super_destaque .imobDestaque img { width:970px; margin-top:-200px; float:left; }
+#super_destaque .imobDestaque .transparencia { position:absolute; width:970px; height:46px; bottom:0; left:0; background:#000; opacity:0.60;	-moz-opacity: 0.60;	filter: alpha(opacity=60); z-index:20;}
+#super_destaque .imobDestaque .features { position:absolute; width:950px; padding:0 0 0 20px; height:76px; bottom:-43px; left:0; font-size:12px; z-index:30; line-height:18px;  }
+#super_destaque .imobDestaque .features .tipo {font-family:'MyriadWebRegular'; float:left; width:100%; color:#FFF; font-size:18px;  font-weight:bold; height:45px; overflow:hidden;}
+#super_destaque .imobDestaque .features .tipo span {font-family:'MyriadWebRegular'; color:#FFF; font-size:14px;  font-weight:bold; height:47px; overflow:hidden;}
+#super_destaque .imobDestaque .features .importantes { font-family:'MyriadWebRegular'; color:#808080; font-size:13px; padding:0 3px; font-weight:normal; height:27px; width:700px; text-transform:lowercase; overflow:hidden; line-height:20px; }
+#super_destaque .imobDestaque .features .price { color:#e50e01; font-size:18px; font-weight:bold;   }
+#super_destaque .imobDestaque .tootip { display:none; cursor:pointer; background:url(../img/bg_features_super.png) no-repeat; width:227px; height:200px; padding:35px 0 0 25px; color:#FFF; position:absolute; top:20px; right:50px; z-index:500;}
+#super_destaque .imobDestaque:hover .tootip { display:block; }
+#super_destaque .imobDestaque .tootip .descricao { color:#FFF; font-size:13px; line-height:19px; font-family:'MyriadWebRegular'; width:200px; height:100px;}
+#super_destaque .imobDestaque .tootip .valor { color:#FFF; font-size:21px; font-family:'MyriadWebRegular'; width:200px; height:20px; overflow:hidden;}
+
+#super_destaque #slideExclusivos { z-index:5; }
+#barraDestaquesVenda{ position:absolute; right:0px; bottom:9px; z-index:100; width:270px; height:20px; padding:0; }
+#barraDestaquesVenda a { float:left; background:url(../img/circle.png) 0 0 no-repeat;  width:20px; height:20px; margin:0 6px; text-indent:-1000px; line-height:0;  }
+#barraDestaquesVenda a.activeSlide { background:url(../img/circle_hover.png) 0 0 no-repeat; }
+
+#super_destaque .prev { display:block; background:url(../img/seta_prev.png) no-repeat left 0px; width:20px; height:25px; position:absolute; bottom:7px; right:45px; z-index:150;}
+#super_destaque .next { display:block; background:url(../img/seta_next.png) no-repeat left 0px; width:20px; height:25px; position:absolute; bottom:7px; right:10px; z-index:150;}
+
+
+/******************************DESTAQUES*********************************/
+
+#corpo #destaqueGrande { float:left; width:735px; height:290px; margin:0 0 20px 0; position:relative; z-index:30; }
+#corpo #destaqueGrande h2 { font-size:18px; padding:0 0 10px 0; font-family:'MyriadWebRegular'; margin:0 0 10px 0; color:#1D3654; font-weight:normal; background:url(../img/pontilhado.jpg) left bottom repeat-x; }
+#corpo #destaqueGrande h1{ display:none; }
+#corpo #destaqueGrande .imobDestaqueGrande * { font-family:Tahoma, Geneva, sans-serif; }
+#corpo #destaqueGrande #cycleSlide { float:left; width:650px !important; margin:10px 0 0 43px;  }
+#corpo #destaqueGrande li { float:left; width:200px; height:200px;  margin:0 25px 0 0; position:relative; z-index:20;  }
+#corpo #destaqueGrande .imobDestaqueGrande .image { float:left; width:200px;}
+#corpo #destaqueGrande .imobDestaqueGrande img { width:200px; height:115px; }
+#corpo #destaqueGrande a:hover {  filter:alpha(opacity=80); -moz-opacity: 0.8;  opacity: 0.8; }
+#corpo #destaqueGrande .imobDestaqueGrande .features { float:left; width:200px; height:130px;}
+#corpo #destaqueGrande .imobDestaqueGrande .bairro { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; background:#1d3654; border-top:1px solid #FFF; padding:8px 0 0 8px; font-size:13px; line-height:11px; line-height:15px; color:#FFF; height:27px; overflow:hidden; width:192px;  }
+#corpo #destaqueGrande .imobDestaqueGrande .descricao { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; background:#dfe3e4; border-top:1px solid #aeb7c0; font-size:12px; height:45px; overflow:hidden; line-height:20px; color:#000;  width:187px; padding:3px 5px 0 8px;  }
+#corpo #destaqueGrande .imobDestaqueGrande .saibaMais { position:absolute; right:0; bottom:0; z-index:30; }
+#corpo #destaqueGrande .imobDestaqueGrande .saibaMais a { display:block; background:url(../img/plus_destaque.png) 0 0 no-repeat; width:28px; height:28px; }
+#corpo #destaqueGrande .prev { display:block; background:url(../img/arrow_prev.jpg) no-repeat 0 0; width:30px; height:42px; position:absolute; top:132px; left:-0; z-index:150;  }
+#corpo #destaqueGrande .next { display:block; background:url(../img/arrow_next.jpg) no-repeat 0 0; width:30px; height:42px; position:absolute; top:132px; right:0; z-index:150;}
+
+/******************************DESTAQUES VENDA*********************************/
+#corpo #destaque_venda h2 { font-size:18px; padding:0 0 10px 0; font-family:'MyriadWebRegular'; margin:0 0 15px 0; color:#1D3654; font-weight:normal; background:url(../img/pontilhado.jpg) left bottom repeat-x; }
+#corpo .destaques_venda { float:left; margin:25px 0 0 30px; width:700px;}
+#corpo .destaques_venda .imobdestaque * { font-family:Tahoma, Geneva, sans-serif; }
+#corpo .destaques_venda #cycleSlide { float:left; width:615px !important; margin:10px 0 0 45px;  }
+#corpo .destaques_venda li { float:left; width:185px; height:203px;  margin:0 45px 25px 0; position:relative; z-index:1; }
+#corpo .destaques_venda li:hover { z-index:2; }
+#corpo .destaques_venda .imobdestaque .image { float:left; width:185px;}
+#corpo .destaques_venda .imobdestaque img { width:185px; height:115px; }
+#corpo .destaques_venda .imobdestaque .features { float:left; width:185px; height:130px;}
+#corpo .destaques_venda .imobdestaque .bairro { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; text-align:center; background:#1d3654;  padding:8px 0 0 0; font-size:13px; line-height:15px; color:#FFF; height:27px; overflow:hidden; width:185px;  }
+#corpo .destaques_venda .imobdestaque .tipo { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; background:#dfe3e4; border-top:1px solid #aeb7c0; text-align:left; font-size:11px; height:19px; overflow:hidden; line-height:20px; color:#000;  width:172px; padding:5px 5px 0 8px;  }
+#corpo .destaques_venda .imobdestaque .valor { font-family:"Trebuchet MS", Arial, Helvetica, sans-serif; background:#dfe3e4; font-size:12px;  height:25px; font-weight:normal; text-align:left; overflow:hidden; line-height:20px; color:#000;  width:172px; padding:3px 5px 0 8px;  }
+#corpo .destaques_venda .imobdestaque .saibaMais { position:absolute; right:0; bottom:0; z-index:30; }
+#corpo .destaques_venda .imobdestaque .saibaMais a { display:block; background:url(../img/plus_destaque.png) 0 0 no-repeat; width:28px; height:28px; }
+#corpo .destaques_venda .imobdestaque .tootip { display:none; cursor:pointer; background:url(../img/bg_features_super.png) no-repeat; width:227px; height:154px; padding:35px 0 0 25px; color:#FFF; position:absolute; top:120px; left:5px; z-index:900;}
+#corpo .destaques_venda .imobdestaque:hover .tootip { display:block; }
+#corpo .destaques_venda .imobdestaque .tootip .descricao { color:#FFF; font-size:13px; line-height:19px; font-family:'MyriadWebRegular'; width:200px; height:100px;}
+#corpo .destaques_venda .imobdestaque .tootip .valor { background:none; color:#FFF; font-size:21px; font-family:'MyriadWebRegular'; width:200px; height:20px; overflow:hidden;}
+
+
+select{ z-index: 1;}
+
+/* PROPOSTAS E CADASTROS */
+.propostaCadastro { font-weight:bold;}
+.propostaCadastro ul{ padding:0 0 0 20px; }
+.propostaCadastro ul li { padding:2px 0; list-style:inside disc; font-weight:normal;}
+
+/* DETALHES DO IMÓVEL */
+/* Ficha Imóvel */
+
+#imvFicha { float:left; width:743px;}
+#imvFicha h1 { float:left; width:100%; }
+#imvFicha .aba_superior { float:left; width:100%; height:60px; background:url(../img/bg_titulo_ficha.png) 0 0 no-repeat;}
+#imvFicha .aba_superior * { font-family:'MyriadWebRegular'; }
+#imvFicha .aba_superior .bairro { float:left; padding:20px 0 0 20px; color:#333; font-size:16px; width:410px; height:40px;}
+#imvFicha .aba_superior .links { float:left; width:310px; height:45px; padding:15px 0 0 0;}
+#imvFicha .aba_superior .links a { float:left; display:block; margin:0 10px 0 0; color:#666666; padding:0 0 0 28px; font-size:12px; line-height:14px;}
+#imvFicha .aba_superior .links .interessado { background:url(../img/icon_interessado.png) 0 3px no-repeat;} 
+#imvFicha .aba_superior .links .corretor { background:url(../img/icon_corretor.png) 0 3px no-repeat;} 
+#imvFicha .aba_superior .links .indique { background:url(../img/icon_indique.png) 0 3px no-repeat;} 
+#imvFicha .informacoes { float:left; width:100%; height:600px;}
+
+#imvFicha .fotosdoimovel { background:url(../img/bg-fotos.png) no-repeat left top; width:950px; height:360px; float:left; padding:0 20px 0 0; position:relative; }
+#imvFicha .fotosdoimovel .titulos { float:left; padding:0 0 0 15px;}
+#imvFicha .fotosdoimovel h1 { font-family:'HelveticaRegular'; font-size:18px; color:#162159; font-weight:bold; text-transform:uppercase; }
+#imvFicha .fotosdoimovel h2 { float:left;  height:25px; padding:14px 0 0 19px; width:170px;  }
+#imvFicha .fotosdoimovel .ico-video { float:left; background:url(../img/ico_video_off.png) 0 13px no-repeat;  font-size:12px; height:40px; width:78px; overflow:hidden;  }
+#imvFicha .fotosdoimovel .ico-video a{ float:left; background:url(../img/ico_video.png) 0 13px no-repeat; padding:15px 0 0 35px; color:#2571a3; font-size:12px; text-transform:uppercase; font-weight:bold;  height:35px; width:53px;  }
+
+#imvFicha .fotosdoimovel .ico-slide { background:url(../img/ver_slide_show.png) 0 0 no-repeat; width:117px; height:33px; position:absolute; bottom:64px; left:251px; z-index:100; }
+#imvFicha .fotosdoimovel .ico-slide a { text-indent:-9999px; line-height:0; display:block; width:117px; height:33px;}
+#imvFicha .fotosdoimovel #slideshowimovel { float:left; width:360px; height:267px; overflow:hidden; margin:0 0 0 16px; }
+#imvFicha .fotosdoimovel #slideshowimovel img { width:350px; height:263px; }
+#imvFicha .fotosdoimovel .albumimovel { float:left; width:950px; height:270px;}
+#imvFicha .fotosdoimovel .albumimovel h5 { float:left; width:500px; padding:0 0 15px 0;}
+#imvFicha .fotosdoimovel .albumimovel .fotoGrande { float:left; height:380px;}
+#imvFicha .fotosdoimovel .albumimovel .fotoGrande img { float:left; width:548px; height:350px; border:1px solid #CCC; padding:1px;}
+#imvFicha .fotosdoimovel .albumimovel .prev { position:absolute; top:150px; left:385px; display:block; width:25px; height:31px; background:url(../img/seta_prev.png) 0 0 no-repeat; text-indent:-9999px; line-height:0; }
+#imvFicha .fotosdoimovel .albumimovel .next { position:absolute; top:150px; right:35px; display:block; width:25px; height:31px; background:url(../img/seta_next.png) 0 0 no-repeat; text-indent:-9999px; line-height:0;  }
+
+#imvFicha .fotosdoimovel .albumimovel #nav { float:left; width:357px !important; height:56px; padding:15px 0 0 0; margin:0 0 0 5px; overflow:hidden;}
+#imvFicha .fotosdoimovel .albumimovel #nav ul {}
+#imvFicha .fotosdoimovel #perspectiva { float:left; padding:15px 0 0 7px; margin:0 0 0 35px; width:495px !important; height:270px;}
+#imvFicha .fotosdoimovel #perspectiva li { list-style:none; float:left; width:152px; height:114px; overflow:hidden; padding:0; float:left; margin:0 13px 13px 0; }
+#imvFicha .fotosdoimovel #perspectiva li a { display:block; padding:1px; border:solid 1px #CCC; width:148px; height:110px; cursor:pointer; }
+#imvFicha .fotosdoimovel #perspectiva li img { width:148px; height:110px; cursor:pointer; }
+#imvFicha .fotosdoimovel #perspectiva li a.activeSlide { border:solid 2px #1C2D63; padding:0;  display:block; }
+
+#imvFicha .descricao { float:left; width:100%; height:auto; padding:0 0 30px 0;}
+#imvFicha .descricao h3 { font-size:18px; padding:0 0 10px 0; font-family:'MyriadWebRegular'; margin:0 0 10px 0; color:#1D3654; font-weight:normal; background:url(../img/traco_ficha.jpg) left bottom repeat-x;}
+#imvFicha .descricao h2 { display:none;}
+#imvFicha .descricao p { float:left; font-family:'MyriadWebRegular'; font-size:14px;}
+
+
+#imvFicha .detalhes_condominio { float:left; width:100%; height:auto; padding:0 0 30px 0;}
+#imvFicha .detalhes_condominio h3 { font-size:18px; padding:0 0 10px 0; font-family:'MyriadWebRegular'; margin:0 0 10px 0; color:#1D3654; font-weight:normal; background:url(../img/traco_ficha.jpg) left bottom repeat-x;}
+
+
+#imvFicha .corretor_online { float:left; width:383px; height:auto; padding:0 0 30px 0;}
+#imvFicha .corretor_online a { background:url(../img/img_corretor_ficha.jpg) 0 0 no-repeat; display:block; width:351px; height:291px;}
+
+#imvFicha .contato { float:left; background:url(../img/bg_contato_ficha.png) 0 0 no-repeat; width:346px; height:300px; padding:17px 0 0 13px;}
+#imvFicha .contato h3 { font-size:18px; padding:0 0 10px 0; font-family:'MyriadWebRegular'; margin:0 0 10px 0; color:#1D3654; font-weight:normal; }
+#imvFicha .contato dl { float:left; width:340px;  }
+#imvFicha .contato dl label {font-family:'MyriadWebRegular';}
+#imvFicha .contato .campos { float:left; height:195px;}
+#imvFicha .contato .news { float:left; height:30px; padding:0 0 0 100px;}
+#imvFicha .contato .botoes { float:left; height:30px; width:90%; text-align:center;}
+#imvFicha .contato dl dt { float:left; font-size:12px; width:100px; height:24px; }
+#imvFicha .contato dl dd input { border:solid 1px #dedddd; padding:2px; font-size:12px; width:225px; float:left; }
+#imvFicha .contato dl dd textarea { border:solid 1px #dedddd; padding:2px; font-size:12px; width:225px; height:40px; }
+#imvFicha .contato dl dd { float:left; width:240px; height:35px; }
+#imvFicha .contato .coluna03 { width:270px; }
+#imvFicha .contato .coluna03 dd { height:auto; padding:0 0 5px 0; }
+#imvFicha .contato #Botao {  background:url(../img/btn_enviar.png) 0 0 no-repeat; width:62px; height:25px; border:none; border-radius:0; cursor:pointer; text-indent:-1000px; line-height:0; margin:0 0 0 0; }
+
+
+
+
+/*PAGINA DO CORRETOR*/
+#imvCaptador { float:left; width:415px; padding:5px; height:150px; border:1px dashed #78AB5C; margin:20px 0 0; }
+#imvCaptador .imvCaptadorFoto { width:110px; float:left; }
+#imvCaptador .imvCaptadorFoto img { border:1px solid #78AB5C; max-height:135px;}
+#imvCaptador .imvCaptadorDados {width:250px; float:left; color:#FFF; }
+#imvCaptador .imvCaptadorDados .btPaginaCorretor { background:url(../img/virtual/icoPaginaCorretor.jpg) no-repeat right 0; padding:0 20px 0 0; color:#78AB5C}
+#imvCaptador .pagcorretor { clear:both; border-top:1px dotted #000; width:250px; display:block; margin:5px 0 0; padding:5px 0 0; }
+
+#corpo #corretor{border-bottom:1px dashed #78AB5C; margin:0 30px 10px 30px; min-height:160px; line-height:24px; color:#FFF;}
+#corpo #corretor #crecicorretor{float:right; font-weight:bold; width:100px; color:#78AB5C; margin:-20px 0 0;}
+#corpo #corretor #fotocorretor{float:left;}
+#corpo #corretor #fotocorretor img{border:2px solid #78AB5C; margin-right:10px;}
+#corpo #corretor strong{font-size:14px;}
+
+
+
+/* DETALHES DO FINANCIAMENTO */
+
+ .ImobBancos { overflow:auto; padding-bottom:15px; }
+ .ImobBancos ul li {float:left; margin:0 4px 10px 0; padding:0; list-style:none !important;}
+ .ImobBancos ul li.bco01 {background:url(../img/virtual/bcoBradesco.jpg) no-repeat;}
+ .ImobBancos ul li.bco02 {background:url(../img/virtual/bcoCaixa.jpg) no-repeat;}
+ .ImobBancos ul li.bco03 {background:url(../img/virtual/bcoHSBC.jpg) no-repeat;}
+ .ImobBancos ul li.bco04 {background:url(../img/virtual/bcoItau.jpg) no-repeat;}
+ .ImobBancos ul li.bco05 {background:url(../img/virtual/bcoReal.jpg) no-repeat;}
+ .ImobBancos ul li.bco06 {background:url(../img/virtual/bcoSantander.jpg) no-repeat;}
+ .ImobBancos ul li.bco07 {background:url(../img/virtual/bcoNossaCaixa.jpg) no-repeat;}
+ .ImobBancos ul li.bco08 {background:url(../img/virtual/bcoUnibanco.jpg) no-repeat;}
+ .ImobBancos ul li.bco09 {background:url(../img/virtual/bcoBrasil.jpg) no-repeat;}
+ .ImobBancos ul li a {display:block; border:1px solid #CCC; width:149px; height:34px; padding:0; text-indent:-10000px;}
+
+/* BUSCA AVANÇADA*/
+
+
+.buscaavancada #frmBusca h1 {border-bottom:solid 1px #666; padding:0; font-size:14px; color:#666; text-align:left; text-transform:uppercase;}
+.buscaavancada #frmBusca dl {font-size:11px; text-align:left; overflow:hidden; float:left; width:165px; height:65px; padding-bottom:0; }
+.buscaavancada #frmBusca dd select { width:150px; }
+.buscaavancada #frmBusca dt { width:180px; text-align:left; min-height:20px; _min-height:20px; height:20px; }
+.buscaavancada #frmBusca select {width:125px; font-size:11px;}
+.buscaavancada #frmBusca .bairro { height: 250px; text-align: left; overflow: auto; padding: 0px 5px; clear:both; width:900px; }
+.buscaavancada #frmBusca .bairro dl { width:880px; min-height:200px; _min-height:200px; height:200px; }
+.buscaavancada #frmBusca .bairro #divbairro { width:850px; height:120px; overflow:auto; border:solid 1px #000; padding:15px; background:#fff; }
+.buscaavancada #frmBusca .bairro #divbairro div { margin:0; padding:5px !important; width:195px; float:left; text-align:left; font-size:11px; font-weight:normal; text-align:left !important; line-height:20px; }
+.buscaavancada #frmBusca .bairro #divbairro div label { display:block; }
+.buscaavancada #frmBusca .bairro #divbairro .bairroSelecionado { background:#ccc; }
+.buscaavancada #frmBusca .bairro #divbairro div input { width:auto; float:left; margin-right:5px; border:none; background:none; }
+.buscaavancada #frmBusca .bairro dl dt { width:600px !important; }
+.buscaavancada #frmBusca .bairro dl dd { width:680px; }
+
+/* LISTAGEM - PAGINACAO */
+
+.paginacao{ padding:5px 0 0 0; margin:auto; width:500px; height: 20px; clear:both;}
+.paginacao * { font-size:14px; color:#808080; font-family:'MyriadWebRegular'; }
+.paginacao strong { font-weight:normal; font-size:13px;  float:left;}
+.paginacao li{ background: none;  float: left; color:#808080; font-family:'MyriadWebRegular';  margin: 0px 2px; list-style: none !important;}
+.paginacao li.primeiro,
+.paginacao li.anterior,
+.paginacao li.proximo, 
+.paginacao li.ultimo{  width:auto;   }
+.paginacao li.primeiro a{ background: url(../img/virtual/icoPrimeiro.png) left 5px no-repeat;}
+.paginacao li.anterior a{ background: url(../img/virtual/icoAnterior.png) left 5px no-repeat;}
+.paginacao li.proximo a{ background: url(../img/virtual/icoProximo.png) right 5px no-repeat;}
+.paginacao li.ultimo a{ background: url(../img/virtual/icoUltimo.png) right 5px no-repeat;}
+.paginacao li.primeiro a,
+.paginacao li.anterior a { padding:0 0 0 20px; margin:0 0 0 5px; overflow: hidden; display: block; width:auto; height: 24px;}
+.paginacao li.proximo a, 
+.paginacao li.ultimo a{ padding:0 20px 0 0; margin:0 5px 0 0; overflow: hidden; display: block; width:auto; height: 24px;}
+.paginacao li.irpagina{ padding-left: 50px; width: 100px;}
+.paginacao li.irpagina #btnIr{ position:absolute; border:none; font-size:1px; color:#fff; background: url(../img/virtual/ir.gif) no-repeat; width: 24px; height: 24px; text-indent: -10000px; overflow: hidden; cursor: pointer; margin:1px 0 0 10px;}
+.paginacao li.pagina{ padding: 0px 10px; color:#FFF;}
+
+/* LISTAGEM - FILTROS */
+
+#corpo .filtros { color:#565656;  overflow:auto; padding:10px 0; width:463px; margin:auto; clear:both;  }
+#corpo .filtros * { font-size:11px; }
+#corpo .filtros ul {}
+#corpo .filtros li {  float:left; color:#FFF; list-style:none; padding:0; margin:0 0 0 3px;}
+#corpo .filtros li a { background:#78AB5C; border:1px solid #bcbcbc;  display:block; color:#FFF; padding:2px 6px 2px 6px; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; }
+#corpo .filtros .ativo a,#corpo .filtros a:hover { background:#112C49;   text-decoration:none; color:#FFF;}
+#corpo .filtros p { background:#CCC; border:1px solid #bcbcbc;  -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px;  float:left; padding:3px 0 3px 5px; font-weight:bold; color:#FFF; width:77px; line-height:18px;}
+
+/* LISTAGEM */
+
+#site .qtdeImoveis { font-family:'MyriadWebRegular'; color:#1d446b; font-size:14px; padding:0; width:100%; text-align:right; }
+.boxlistagem { float:left; width:740px; height:150px;  margin:0 0 25px 0; }
+.boxlistagem  * { font-family:'MyriadWebRegular'; color:#808080;}
+.boxlistagem .foto { float:left; width:210px; height:150px; margin:0 10px 0 0;}
+.boxlistagem .foto img{ float:left; width:208px; height:148px; border:1px solid #dfdfdf;}
+.boxlistagem .informacoes { background:url(../img/bg_listagem_imovel.png) 0 0 no-repeat; padding:17px 0 0 12px; float:left; width:218px; height:133px; margin:0 15px 0 0;}
+.boxlistagem .informacoes .bairro { color:#1D3654; font-size:13px;  float:left; width:218px; height:20px; overflow:hidden;}
+.boxlistagem .informacoes .tipo {  float:left; width:218px; height:20px; overflow:hidden; margin:10px 0 1px 0;}
+.boxlistagem .informacoes .importantes { float:left; width:218px; height:20px; overflow:hidden; margin:0 0 1px 0;}
+.boxlistagem .informacoes .valor { font-size:14px; font-weight:bold; float:left; width:218px; height:20px; overflow:hidden;}
+
+.boxlistagem .condominio { background:url(../img/bg_listagem_condominio.png) 0 0 no-repeat; padding:15px 0 0 12px; float:left; width:260px; height:135px; }
+.boxlistagem .condominio * { color:#666;}
+.boxlistagem .condominio .nome { color:#1D3654; font-size:13px; float:left; width:230px; height:20px; overflow:hidden;}
+.boxlistagem .condominio .bairro_cond {  float:left; width:250px; height:20px; overflow:hidden; margin:10px 0 1px 0;}
+.boxlistagem .condominio .area_util {  float:left; width:250px; height:20px; overflow:hidden; margin:0 0 1px 0;}
+.boxlistagem .condominio .ref {  float:left; width:250px; height:20px; overflow:hidden; margin:0 0 15px 0;}
+.boxlistagem .condominio .botoes {  float:left; width:250px; height:30px; overflow:hidden; }
+.boxlistagem .condominio .botoes a { background:#1d446b; display:block; float:left; font-size:12px; padding:2px 8px 0px 8px; width:auto; color:#FFF; text-transform:uppercase; }
+.boxlistagem .condominio .botoes a:hover { text-decoration:none;}
+.boxlistagem .condominio .botoes .visita { margin:0 50px 0 0;}
+
+/* GERAL > FORMULARIOS */
+
+#form1, #frmbusca, #frmMap {width:70%; margin:auto;}
+fieldset {border:1px solid #CCC; margin:10px 0 15px 0; *margin:0 0 20px 0;  }
+fieldset option { padding:2px 2px 0 2px; font-size:12px;}
+fieldset legend { background:url(../img/bg_select.jpg) 0 0 repeat-x; border:1px solid #CCC; margin:0 0 0 10px; *margin:20px 0 0 10px; padding:5px; font-size:14px; color:#FFF; text-align:left;  }
+fieldset dl {padding:10px; color:#333;}
+fieldset dl dt {float:left; display:inline-block; clear:both; width:30%; padding:10px 5px 0 5px; min-height:31px; *min-height:25px;  font-weight:normal; text-align:right; font-size:14px; }
+fieldset dl dd {float:left; display:inline-block; width:65%; padding:5px; min-height:31px; *min-height:25px; font-size:12px; }
+fieldset dl dd input[type="radio"]  { border:none;  margin:0 3px 0 0;}
+fieldset dl dd input[type="checkbox"]  { border:none;  margin:0 3px 0 0;}
+
+fieldset dl dd input, fieldset dl dd select, fieldset dl dd textarea { border:1px solid #bcbcbc; background:#EFEFEF; padding:3px; font-size:12px; }
+form div, form p {padding:0 0 10px 0; *padding:10px 0; font-weight:normal; color:#666; text-align:center;}
+fieldset dl dd textarea {width:328px; margin:0 0 12px 0;}
+form div input, form p input { background:url(../img/li_menu_drop.jpg) 0 0 no-repeat;  text-indent:0 !important;  margin:0 10px -10px 10px; padding:5px 10px; font-size:12px; font-weight:bold; color:#FFF; text-align:center; cursor:pointer; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px; }
+form #Botao:hover { background:url(../img/li_menu_drop_hover.jpg) 0 0 no-repeat;}
+form #btnEnviar {   height:30px; width:75px; -webkit-border-radius:4px; -moz-border-radius:4px; border-radius:4px;} 
+form #btnEnviar:hover { background:url(../img/li_menu_drop_hover.jpg) 0 0 no-repeat;}
+
+
+form #imvBusca { text-align:left; }
+/* GERAL > TABLEAS */
+
+table {background:#333; border:1px solid #FFF; width:99%; margin:0 0 15px 0;}
+table tr th { border:1px solid #FFF; padding:5px; font-size:12px; font-weight:normal; color:#fff; text-align:left;}
+table tr th a { color:#fff; }
+table tr td { background:#fff; border:none; padding:5px; font-size:12px; }
+table tr td a img { margin:0 0 0 12px; }
+table tr.exclusividade td { background:#FFFAEB; }
+table tr.exclusividade td a { color:#fff; }
+
+
+/* MENSAGEM DE ERRO CAPTCHA */
+ .erro_captcha { color:#F00;}

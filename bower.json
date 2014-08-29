@@ -1,0 +1,25 @@
+{
+  "name": "virtualgaia-scripts",
+  "version": "1.0.0",
+  "description": "VirtualGaia plugins. Scripts and CSS for WebSites using VirtualGaia",
+  "keywords": [
+    "virtualgaia",
+    "i-value",
+    "gaiasite"
+  ],
+  "license": "MIT",
+  "homepage": "virtualgaia.com.br",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jesse1983/virtualgaia-scripts"
+  },  
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "grp",
+    "news"
+  ]
+}
